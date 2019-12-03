@@ -20,11 +20,11 @@ export class Playground extends PureComponent<IEmpty, IState> {
     render(): JSX.Element {
         return (
             <ScrollView style={CommonStyles.flexWhiteBackground}>
-                {this.renderContentInfo("MainButton (Action)")}
+                {this.renderContentInfo("MainB_Action 1")}
                 <MainButton type={ButtonType.Action} onPress={showInDevAlert} title={localization.common.ok}/>
-                {this.renderContentInfo("MainButton (Negative)")}
+                {this.renderContentInfo("MainB_Negative 2")}
                 <MainButton type={ButtonType.Negative} onPress={showInDevAlert} title={localization.common.ok}/>
-                {this.renderContentInfo("MainButton (Positive)")}
+                {this.renderContentInfo("MainB_Positive 3")}
                 <MainButton type={ButtonType.Positive} onPress={showInDevAlert} title={localization.common.ok}/>
                 {this.renderContentInfo("MainButton (Neutral)")}
                 <MainButton type={ButtonType.Neutral} onPress={showInDevAlert} title={localization.common.ok}/>

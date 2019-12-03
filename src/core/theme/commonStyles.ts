@@ -5,15 +5,15 @@ import {Fonts} from "./fonts";
 
 export const CommonStyles = styleSheetCreate({
     flex1: {
-        flex: 1
+        flex: 1,
     } as ViewStyle,
     flexWhiteBackground: {
         flex: 1,
-        backgroundColor: Colors.white
+        backgroundColor: Colors.white,
     } as ViewStyle,
     flexBlackBackground: {
         flex: 1,
-        backgroundColor: Colors.black
+        backgroundColor: Colors.black,
     } as ViewStyle,
     shadow: {
         ...Platform.select({
@@ -41,10 +41,10 @@ export const CommonStyles = styleSheetCreate({
     },
     bottomEmptySpace: {
         height: 50,
-        backgroundColor: Colors.white
+        backgroundColor: Colors.white,
     } as ViewStyle,
     iPhoneXFooter: {
-        height: 20
+        height: 20,
     } as ViewStyle,
     windowContainer: {
         position: "absolute",

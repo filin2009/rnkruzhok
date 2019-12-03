@@ -21,6 +21,7 @@ export class Actions {
     }
 
     navigateToPlayground = simpleToRoute(NavigationPages.playground);
+    navigateToCafePage = simpleToRoute(NavigationPages.cafepage);
 
     navigateToBack = (): SimpleThunk => {
         return async (dispatch, getState): Promise<void> => {
