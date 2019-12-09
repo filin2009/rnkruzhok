@@ -1,6 +1,6 @@
 export const emptyLocalization = {
     "en": {
         "inDevTitle": "Action is missing",
-        "inDevMessage": "In Development",
+        "inDevMessage": "Пока разрабатуем",
     },
 };
